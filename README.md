@@ -6,12 +6,12 @@ This repository contains the database design and implementation for a new hospit
 ------
 The goal of this project was to design and implement a relational database to support the core operations of a hospital. The database is designed to store and manage key information, including:
 
-1. Patients: Personal details, contact information, and login credentials for a patient portal.
-2. Doctors: Information about hospital staff.
-3. Departments: The various departments within the hospital.
-4. Appointments: Scheduling details, status (pending, completed, etc.), and links to specific patients and doctors.
-5. Medical Records: A comprehensive record of a patient's medical history, including past diagnoses, prescribed medicines, and allergies.
-6. Reviews: Contains information about patients' satisfaction with the services they were rendered during their appointments
+1. **Patients**: Personal details, contact information, and login credentials for a patient portal.
+2. **Doctors**: Information about hospital staff.
+3. **Departments**: The various departments within the hospital.
+4. **Appointments**: Scheduling details, status (pending, completed, etc.), and links to specific patients and doctors.
+5. **Medical Records**: A comprehensive record of a patient's medical history, including past diagnoses, prescribed medicines, and allergies.
+6. **Reviews**: Contains information about patients' satisfaction with the services they were rendered during their appointments
 
 ## Database Design
 ------
@@ -30,9 +30,9 @@ Each table has a designated Primary Key and uses Foreign Keys to enforce relatio
 ------
 All database objects were created and managed using T-SQL statements in Microsoft SQL Server Management Studio (SSMS). The repository contains a single script with the following sections:
 
-- Schema Creation: T-SQL statements for creating all tables, including primary keys, foreign keys, and other constraints.
-- Data Population: INSERT statements to populate the tables with a minimum of 20 records per table, allowing for comprehensive query testing.
-- Example Queries: A selection of T-SQL queries that can be used to test and demonstrate the functionality of the database, such as:
+- **Schema Creation**: T-SQL statements for creating all tables, including primary keys, foreign keys, and other constraints.
+- **Data Population**: INSERT statements to populate the tables with a minimum of 20 records per table, allowing for comprehensive query testing.
+- **Example Queries**: A selection of T-SQL queries that can be used to test and demonstrate the functionality of the database, such as:
 - Retrieving patient and medical record information.
 
 ## Getting Started

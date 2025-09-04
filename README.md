@@ -2,7 +2,7 @@
 -------
 This repository contains the database design and implementation for a new hospital management system. The project was developed as a database developer consultant, with a focus on creating a robust and efficient system for managing patient, doctor, and medical record information.
 
-# Project Overview
+## Project Overview
 ------
 The goal of this project was to design and implement a relational database to support the core operations of a hospital. The database is designed to store and manage key information, including:
 
@@ -18,7 +18,7 @@ Medical Records: A comprehensive record of a patient's medical history, includin
 
 Reviews: Contains information about patients' satisfaction with the services they were rendered during their appointments
 
-# Database Design
+## Database Design
 ------
 The database schema is fully normalized to the 3rd Normal Form (3NF) to ensure data integrity and minimize redundancy. The design includes the following tables with clearly defined relationships:
 
@@ -36,7 +36,7 @@ DoctorReviews
 
 Each table has a designated Primary Key and uses Foreign Keys to enforce relationships between tables, ensuring referential integrity. Constraints such as NOT NULL, DEFAULT, and CHECK are used to maintain data validity.
 
-# T-SQL Implementation
+## T-SQL Implementation
 ------
 All database objects were created and managed using T-SQL statements in Microsoft SQL Server Management Studio (SSMS). The repository contains a single script with the following sections:
 
@@ -48,7 +48,7 @@ Example Queries: A selection of T-SQL queries that can be used to test and demon
 
 Retrieving patient and medical record information.
 
-# Getting Started
+## Getting Started
 ------
 To use this database, you will need to:
 
@@ -58,7 +58,7 @@ Open the T-SQL script in SQL Server Management Studio (SSMS).
 
 Execute the script to create the database schema and populate it with data.
 
-# Deliverables
+## Deliverables
 ------
 This project includes the following deliverables:
 
